@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+<item
+    android:id="@+id/satellite"
+    android:icon="@drawable/satellite"
+    android:title="卫星地图"
+    app:showAsAction="always"/>
+    <item
+        android:id="@+id/traffic"
+        android:icon="@drawable/traffic"
+        android:title="交通地图"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/heatMap"
+        android:icon="@drawable/heatmap"
+        android:title="热力地图"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/normal"
+        android:icon="@drawable/normal"
+        android:title="正常地图"
+        app:showAsAction="never"
+        />
+</menu>
